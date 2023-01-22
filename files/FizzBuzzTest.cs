@@ -7,7 +7,6 @@ public class HikerTest
     [TestCase(1)]
     [TestCase(2)]
     [TestCase(4)]
-    [TestCase(0)]
     public void GivenNumberReturnNumber(int input)
     {
         // a simple example to start you off

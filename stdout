@@ -6,15 +6,6 @@ Test Files
     ./RunTests.dll
 
 
-Errors, Failures and Warnings
-
-1) Failed : HikerTest.GivenNumberReturnNumber(0)
-  Expected string length 1 but was 8. Strings differ at index 0.
-  Expected: "0"
-  But was:  "FizzBuzz"
-  -----------^
-  at HikerTest.GivenNumberReturnNumber (System.Int32 input) [0x00000] in <a9846958c04b4f62ad561fb0250a79d0>:0 
-
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -24,11 +15,10 @@ Run Settings
     NumberOfTestWorkers: 4
 
 Test Run Summary
-  Overall result: Failed
-  Test Count: 12, Passed: 11, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2023-01-22 10:36:29Z
-    End time: 2023-01-22 10:36:30Z
-    Duration: 0.762 seconds
+  Overall result: Passed
+  Test Count: 11, Passed: 11, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2023-01-22 10:36:47Z
+    End time: 2023-01-22 10:36:48Z
+    Duration: 0.705 seconds
 
 Results (nunit3) saved as TestResult.xml
