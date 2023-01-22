@@ -13,77 +13,56 @@ Errors, Failures and Warnings
   Expected: "Buzz"
   But was:  "5"
   -----------^
-  at HikerTest.GivenMultipleOfFiveReturnBuzz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfFiveReturnBuzz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 2) Failed : HikerTest.GivenMultipleOfFiveReturnBuzz(25)
   Expected string length 4 but was 2. Strings differ at index 0.
   Expected: "Buzz"
   But was:  "25"
   -----------^
-  at HikerTest.GivenMultipleOfFiveReturnBuzz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfFiveReturnBuzz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 3) Failed : HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz(15)
   Expected string length 8 but was 2. Strings differ at index 0.
   Expected: "FizzBuzz"
   But was:  "15"
   -----------^
-  at HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 4) Failed : HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz(30)
   Expected string length 8 but was 2. Strings differ at index 0.
   Expected: "FizzBuzz"
   But was:  "30"
   -----------^
-  at HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 5) Failed : HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz(60)
   Expected string length 8 but was 2. Strings differ at index 0.
   Expected: "FizzBuzz"
   But was:  "60"
   -----------^
-  at HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfThreeAndFiveReturnFizzBuzz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 6) Failed : HikerTest.GivenMultipleOfThreeReturnFizz(3)
   Expected string length 4 but was 1. Strings differ at index 0.
   Expected: "Fizz"
   But was:  "3"
   -----------^
-  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 7) Failed : HikerTest.GivenMultipleOfThreeReturnFizz(6)
   Expected string length 4 but was 1. Strings differ at index 0.
   Expected: "Fizz"
   But was:  "6"
   -----------^
-  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 8) Failed : HikerTest.GivenMultipleOfThreeReturnFizz(9)
   Expected string length 4 but was 1. Strings differ at index 0.
   Expected: "Fizz"
   But was:  "9"
   -----------^
-  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
-
-9) Failed : HikerTest.GivenNumberReturnNumber(2)
-  String lengths are both 1. Strings differ at index 0.
-  Expected: "1"
-  But was:  "2"
-  -----------^
-  at HikerTest.GivenNumberReturnNumber (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
-
-10) Failed : HikerTest.GivenNumberReturnNumber(4)
-  String lengths are both 1. Strings differ at index 0.
-  Expected: "1"
-  But was:  "4"
-  -----------^
-  at HikerTest.GivenNumberReturnNumber (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
-
-11) Failed : HikerTest.GivenNumberReturnNumber(0)
-  String lengths are both 1. Strings differ at index 0.
-  Expected: "1"
-  But was:  "0"
-  -----------^
-  at HikerTest.GivenNumberReturnNumber (System.Int32 input) [0x00000] in <a2b35bbb3d364759bbd3d4460c507fe6>:0 
+  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <1a33f2702074473d926e413f226fdd3a>:0 
 
 Run Settings
     DisposeRunners: True
@@ -95,10 +74,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 12, Passed: 1, Failed: 11, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 11, Errors: 0, Invalid: 0
-  Start time: 2023-01-22 10:34:08Z
-    End time: 2023-01-22 10:34:09Z
-    Duration: 0.780 seconds
+  Test Count: 12, Passed: 4, Failed: 8, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 8, Errors: 0, Invalid: 0
+  Start time: 2023-01-22 10:34:59Z
+    End time: 2023-01-22 10:34:59Z
+    Duration: 0.775 seconds
 
 Results (nunit3) saved as TestResult.xml

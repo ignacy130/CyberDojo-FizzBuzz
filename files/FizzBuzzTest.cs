@@ -11,7 +11,7 @@ public class HikerTest
     public void GivenNumberReturnNumber(int input)
     {
         // a simple example to start you off
-        Assert.AreEqual("1", FizzBuzz.Answer(input));
+        Assert.AreEqual(input.ToString(), FizzBuzz.Answer(input));
     }
     
     [Test]
@@ -20,7 +20,6 @@ public class HikerTest
     [TestCase(9)]
     public void GivenMultipleOfThreeReturnFizz(int input)
     {
-        // a simple example to start you off
         Assert.AreEqual("Fizz", FizzBuzz.Answer(input));
     }
     
@@ -29,7 +28,6 @@ public class HikerTest
     [TestCase(25)]
     public void GivenMultipleOfFiveReturnBuzz(int input)
     {
-        // a simple example to start you off
         Assert.AreEqual("Buzz", FizzBuzz.Answer(input));
     }
     
@@ -39,7 +37,6 @@ public class HikerTest
     [TestCase(60)]
     public void GivenMultipleOfThreeAndFiveReturnFizzBuzz(int input)
     {
-        // a simple example to start you off
         Assert.AreEqual("FizzBuzz", FizzBuzz.Answer(input));
     }
 }
