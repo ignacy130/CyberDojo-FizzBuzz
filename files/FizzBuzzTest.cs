@@ -8,38 +8,38 @@ public class HikerTest
     [TestCase(2)]
     [TestCase(4)]
     [TestCase(0)]
-    public void GivenNumberReturnNumber()
+    public void GivenNumberReturnNumber(int input)
     {
         // a simple example to start you off
-        Assert.AreEqual("1", FizzBuzz.Answer(1));
+        Assert.AreEqual("1", FizzBuzz.Answer(input));
     }
     
     [Test]
     [TestCase(3)]
     [TestCase(6)]
     [TestCase(9)]
-    public void GivenMultipleOfThreeReturnFizz()
+    public void GivenMultipleOfThreeReturnFizz(int input)
     {
         // a simple example to start you off
-        Assert.AreEqual("Fizz", FizzBuzz.Answer());
+        Assert.AreEqual("Fizz", FizzBuzz.Answer(input));
     }
     
     [Test]
     [TestCase(5)]
     [TestCase(25)]
-    public void GivenMultipleOfFiveReturnBuzz()
+    public void GivenMultipleOfFiveReturnBuzz(int input)
     {
         // a simple example to start you off
-        Assert.AreEqual("Buzz", FizzBuzz.Answer());
+        Assert.AreEqual("Buzz", FizzBuzz.Answer(input));
     }
     
     [Test]
     [TestCase(15)]
     [TestCase(30)]
     [TestCase(60)]
-    public void GivenMultipleOfThreeAndFiveReturnFizzBuzz()
+    public void GivenMultipleOfThreeAndFiveReturnFizzBuzz(int input)
     {
         // a simple example to start you off
-        Assert.AreEqual("FizzBuzz", FizzBuzz.Answer());
+        Assert.AreEqual("FizzBuzz", FizzBuzz.Answer(input));
     }
 }
