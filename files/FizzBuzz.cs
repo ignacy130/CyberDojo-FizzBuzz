@@ -2,7 +2,7 @@ using System;
 
 public class FizzBuzz
 {
-    public static string Answer()
+    public static void Answer()
     {
         for(var i=1;i<=100;i++){
             Console.WriteLine(FizzBuzzSolver.Answer(i));
