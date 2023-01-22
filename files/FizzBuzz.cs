@@ -1,11 +1,14 @@
-public class Program{
-    public static void Main()
+public class FizzBuzz
+{
+    public static string Answer()
     {
-        Console.WriteLine("lol");
+        for(var i=1;i<=100;i++){
+            return FizzBuzzSolver.Answer(i);
+        }
     }
 }
 
-public class FizzBuzz
+public class FizzBuzzSolver
 {
     public static string Answer(int input)
     {

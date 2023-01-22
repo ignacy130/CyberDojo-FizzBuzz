@@ -1,7 +1,7 @@
 using NUnit.Framework;
 
 [TestFixture]
-public class FizzBuzzTest
+public class FizzBuzzSolverTest
 {
     [Test]
     [TestCase(1)]
@@ -10,7 +10,7 @@ public class FizzBuzzTest
     public void GivenNumberNotDivisbleByThreeAndFiveReturnNumber(int input)
     {
         // a simple example to start you off
-        Assert.AreEqual(input.ToString(), FizzBuzz.Answer(input));
+        Assert.AreEqual(input.ToString(), FizzBuzzSolver.Answer(input));
     }
     
     [Test]
@@ -20,7 +20,7 @@ public class FizzBuzzTest
     [TestCase(27)]
     public void GivenMultipleOfThreeReturnFizz(int input)
     {
-        Assert.AreEqual("Fizz", FizzBuzz.Answer(input));
+        Assert.AreEqual("Fizz", FizzBuzzSolver.Answer(input));
     }
     
     [Test]
@@ -28,7 +28,7 @@ public class FizzBuzzTest
     [TestCase(25)]
     public void GivenMultipleOfFiveReturnBuzz(int input)
     {
-        Assert.AreEqual("Buzz", FizzBuzz.Answer(input));
+        Assert.AreEqual("Buzz", FizzBuzzSolver.Answer(input));
     }
     
     [Test]
@@ -37,6 +37,6 @@ public class FizzBuzzTest
     [TestCase(60)]
     public void GivenMultipleOfThreeAndFiveReturnFizzBuzz(int input)
     {
-        Assert.AreEqual("FizzBuzz", FizzBuzz.Answer(input));
+        Assert.AreEqual("FizzBuzz", FizzBuzzSolver.Answer(input));
     }
 }

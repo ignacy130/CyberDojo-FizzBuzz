@@ -1,1 +1,2 @@
-FizzBuzz.cs(4,9): error CS0103: The name `Console' does not exist in the current context
+FizzBuzz.cs(3,26): error CS0161: `FizzBuzz.Answer()': not all code paths return a value
+FizzBuzz.cs(5,28): warning CS0162: Unreachable code detected
