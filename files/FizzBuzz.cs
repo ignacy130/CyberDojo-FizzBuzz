@@ -1,9 +1,11 @@
+using System;
+
 public class FizzBuzz
 {
     public static string Answer()
     {
         for(var i=1;i<=100;i++){
-            return FizzBuzzSolver.Answer(i);
+            Console.WriteLine(FizzBuzzSolver.Answer(i));
         }
     }
 }
