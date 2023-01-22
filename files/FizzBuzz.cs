@@ -1,7 +1,7 @@
 public class FizzBuzz
 {
-    public static string Answer()
+    public static string Answer(int input)
     {
-        return "";
+        return input.ToString();
     }
 }

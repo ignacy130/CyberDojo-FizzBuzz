@@ -1,0 +1,6 @@
+FizzBuzzTest.cs(24,42): error CS1501: No overload for method `Answer' takes `0' arguments
+FizzBuzz.cs(3,26): (Location of the symbol related to previous error)
+FizzBuzzTest.cs(33,42): error CS1501: No overload for method `Answer' takes `0' arguments
+FizzBuzz.cs(3,26): (Location of the symbol related to previous error)
+FizzBuzzTest.cs(43,46): error CS1501: No overload for method `Answer' takes `0' arguments
+FizzBuzz.cs(3,26): (Location of the symbol related to previous error)
