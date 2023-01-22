@@ -1,6 +1,6 @@
 public class Hiker
 {
-    public static int Answer()
+    public static string Answer()
     {
         return 6 * 9;
     }
