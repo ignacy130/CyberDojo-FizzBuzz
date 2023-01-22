@@ -1,13 +1,13 @@
 using NUnit.Framework;
 
 [TestFixture]
-public class HikerTest
+public class FizzBuzzTest
 {
     [Test]
     [TestCase(1)]
     [TestCase(2)]
     [TestCase(4)]
-    public void GivenNumberReturnNumber(int input)
+    public void GivenNumberNotDivisbleByThreeAndFiveReturnNumber(int input)
     {
         // a simple example to start you off
         Assert.AreEqual(input.ToString(), FizzBuzz.Answer(input));
@@ -17,6 +17,7 @@ public class HikerTest
     [TestCase(3)]
     [TestCase(6)]
     [TestCase(9)]
+    [TestCase(27)]
     public void GivenMultipleOfThreeReturnFizz(int input)
     {
         Assert.AreEqual("Fizz", FizzBuzz.Answer(input));
