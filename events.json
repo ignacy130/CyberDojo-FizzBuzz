@@ -27,5 +27,21 @@
       40,
       671029
     ]
+  },
+  {
+    "duration": 1.227331,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 2,
+    "time": [
+      2023,
+      1,
+      22,
+      10,
+      30,
+      50,
+      708297
+    ]
   }
 ]
