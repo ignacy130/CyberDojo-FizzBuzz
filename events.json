@@ -123,5 +123,21 @@
       7,
       171617
     ]
+  },
+  {
+    "duration": 2.248056,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 8,
+    "time": [
+      2023,
+      1,
+      22,
+      10,
+      36,
+      30,
+      669237
+    ]
   }
 ]

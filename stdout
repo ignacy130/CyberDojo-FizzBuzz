@@ -8,47 +8,12 @@ Test Files
 
 Errors, Failures and Warnings
 
-1) Failed : HikerTest.GivenMultipleOfFiveReturnBuzz(5)
-  Expected string length 4 but was 1. Strings differ at index 0.
-  Expected: "Buzz"
-  But was:  "5"
-  -----------^
-  at HikerTest.GivenMultipleOfFiveReturnBuzz (System.Int32 input) [0x00000] in <397675d37b5a4d23b76e8bf5ca80d086>:0 
-
-2) Failed : HikerTest.GivenMultipleOfFiveReturnBuzz(25)
-  Expected string length 4 but was 2. Strings differ at index 0.
-  Expected: "Buzz"
-  But was:  "25"
-  -----------^
-  at HikerTest.GivenMultipleOfFiveReturnBuzz (System.Int32 input) [0x00000] in <397675d37b5a4d23b76e8bf5ca80d086>:0 
-
-3) Failed : HikerTest.GivenMultipleOfThreeReturnFizz(3)
-  Expected string length 4 but was 1. Strings differ at index 0.
-  Expected: "Fizz"
-  But was:  "3"
-  -----------^
-  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <397675d37b5a4d23b76e8bf5ca80d086>:0 
-
-4) Failed : HikerTest.GivenMultipleOfThreeReturnFizz(6)
-  Expected string length 4 but was 1. Strings differ at index 0.
-  Expected: "Fizz"
-  But was:  "6"
-  -----------^
-  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <397675d37b5a4d23b76e8bf5ca80d086>:0 
-
-5) Failed : HikerTest.GivenMultipleOfThreeReturnFizz(9)
-  Expected string length 4 but was 1. Strings differ at index 0.
-  Expected: "Fizz"
-  But was:  "9"
-  -----------^
-  at HikerTest.GivenMultipleOfThreeReturnFizz (System.Int32 input) [0x00000] in <397675d37b5a4d23b76e8bf5ca80d086>:0 
-
-6) Failed : HikerTest.GivenNumberReturnNumber(0)
+1) Failed : HikerTest.GivenNumberReturnNumber(0)
   Expected string length 1 but was 8. Strings differ at index 0.
   Expected: "0"
   But was:  "FizzBuzz"
   -----------^
-  at HikerTest.GivenNumberReturnNumber (System.Int32 input) [0x00000] in <397675d37b5a4d23b76e8bf5ca80d086>:0 
+  at HikerTest.GivenNumberReturnNumber (System.Int32 input) [0x00000] in <a9846958c04b4f62ad561fb0250a79d0>:0 
 
 Run Settings
     DisposeRunners: True
@@ -60,10 +25,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 12, Passed: 6, Failed: 6, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 6, Errors: 0, Invalid: 0
-  Start time: 2023-01-22 10:36:06Z
-    End time: 2023-01-22 10:36:06Z
-    Duration: 0.760 seconds
+  Test Count: 12, Passed: 11, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2023-01-22 10:36:29Z
+    End time: 2023-01-22 10:36:30Z
+    Duration: 0.762 seconds
 
 Results (nunit3) saved as TestResult.xml
